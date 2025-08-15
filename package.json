@@ -1,0 +1,29 @@
+{
+  "name": "cl",
+  "version": "1.0.0",
+  "description": "the best cli tool to start a new project",
+  "keywords": [
+    "cli"
+  ],
+  "homepage": "https://github.com/Untitled-Master/clowy#readme",
+  "bugs": {
+    "url": "https://github.com/Untitled-Master/clowy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Untitled-Master/clowy.git"
+  },
+  "license": "ISC",
+  "author": "Ahmed Belmehnouf",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "bin": {
+    "clowy": "./index.js"
+  }
+}
